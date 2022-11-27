@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  background-color: #141314;
+
+  color: white;
+  font-size: 14px;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item {
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+
+  transition: .2s all;
+  &:hover {
+    transition: .2s all;
+
+    background-color: #313131;
+  }
+}

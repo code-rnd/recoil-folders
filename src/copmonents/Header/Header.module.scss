@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  background-color: #141314;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+  height: 55px;
+}
+
+.btn {
+  position: absolute;
+  min-height: 15px;
+  min-width: 15px;
+  max-height: 15px;
+  max-width: 15px;
+
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.close {
+  top: 20px;
+  left: 20px;
+  background-color: #EF4E47;
+}
+.collapse {
+  top: 20px;
+  left: 45px;
+  background-color: #F0AD2A;
+}
+.expand {
+  top: 20px;
+  left: 70px;
+  background-color: #31BB3B;
+}
+
+span {
+  color: #616161;
+}

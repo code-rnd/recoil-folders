@@ -5,7 +5,3 @@ export interface FolderDTO extends FolderModel {
 export interface FolderModel {
   name: string;
 }
-
-export interface InitialAtom {
-  list: FolderDTO[];
-}

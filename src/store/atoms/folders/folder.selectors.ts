@@ -6,7 +6,7 @@ import { foldersAtom } from "./folders.atom";
 export const getFolders = selector({
   key: GET_FOLDERS_KEY,
   get: ({ get }) => {
-    const { list } = get(foldersAtom);
+    const list = get(foldersAtom);
 
     return list;
   },
